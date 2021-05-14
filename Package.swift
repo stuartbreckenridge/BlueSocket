@@ -6,7 +6,7 @@ import PackageDescription
 
 #if os(Linux) || os(macOS) || os(iOS) || os(tvOS)
 let package = Package(
-    name: "Socket",
+    name: "BlueSocket",
     products: [
         .library(
             name: "Socket",
