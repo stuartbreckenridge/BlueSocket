@@ -21,7 +21,7 @@ let package = Package(
         ),
         .testTarget(
             name: "SocketTests",
-            dependencies: ["BlueSocket"]
+            dependencies: ["Socket"]
         ),
     ]
 )
