@@ -6,16 +6,16 @@ import PackageDescription
 
 #if os(Linux) || os(macOS) || os(iOS) || os(tvOS)
 let package = Package(
-    name: "BlueSocket",
+    name: "Socket",
     products: [
         .library(
             name: "Socket",
-            targets: ["BlueSocket"]),
+            targets: ["Socket"]),
     ],
     dependencies: [],
     targets: [
         .target(
-            name: "BlueSocket",
+            name: "Socket",
             dependencies: [],
             exclude: ["BlueSocket.xcodeproj", "BlueSocket.xcworkspace", "README.md", "Sources/Info.plist", "Sources/Socket.h"]
         ),
