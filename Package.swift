@@ -9,7 +9,7 @@ let package = Package(
     name: "BlueSocket",
     products: [
         .library(
-            name: "BlueSocket",
+            name: "Socket",
             targets: ["BlueSocket"]),
     ],
     dependencies: [],
